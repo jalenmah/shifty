@@ -1,0 +1,32 @@
+{
+    "name": "test",
+    "tree": {
+        "$className": "DataModel",
+        "ReplicatedStorage": {
+            "Tests": {
+                "$path": "test/shared"
+            },
+            "Packages": {
+                "Shifty": {
+                    "$path": "src"
+                },
+                "$path": "Packages"
+            },
+            "DevPackages": {
+                "$path": "DevPackages"
+            }
+        },
+        "ServerScriptService": {
+            "Tests": {
+                "$path": "test/server"
+            }
+        },
+        "StarterPlayer": {
+            "StarterPlayerScripts": {
+                "Tests": {
+                    "$path": "test/client"
+                }
+            }
+        }
+    }
+}
